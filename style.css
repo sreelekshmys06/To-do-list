@@ -1,0 +1,91 @@
+body{
+    background: radial-gradient(circle,rgb(132, 231, 211),rgb(7, 75, 78));
+    
+}
+
+header{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    color:black;
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+ 
+
+
+#taskbox{
+    padding: 15px;
+    width: 300px;
+    margin-left: 450px;
+}
+
+#addtaskbutton {
+    background-color: rgb(162, 219, 226);
+    padding: 15px;
+    border-color: black;
+    color:rgb(11, 52, 68);
+    cursor: pointer;
+}
+
+#tasklist {
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 500px;
+}
+  
+
+
+.taskItem {
+    background-color: rgb(16, 67, 75);
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.taskText {
+    flex-grow: 1;
+    padding: 5px;
+    color: white;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.completeBtn {
+    background-color: white;
+    color: rgb(69, 207, 56);
+    border-radius: 3px;
+}
+
+.editBtn {
+    background-color: rgb(132, 217, 223);
+    color: black;
+    border-radius: 3px;
+}
+
+.deleteBtn {
+    background-color: rgb(132, 217, 223);
+    color: black;
+    border-radius: 3px;
+}
